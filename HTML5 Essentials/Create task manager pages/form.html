@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasks Form</title>
+
+        <style>
+            .form-input {
+                margin-bottom: 20px;
+            }
+
+            .display-block {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="form-input">
+            <label class="display-block" for="title">Title</label>
+            <input class="display-block" type="text" id="title">
+        </div>
+
+        <div class="form-input">
+            <label class="display-block" for="description">Description</label>
+            <textarea class="display-block" id="description" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="form-input">
+            <label class="display-block" for="category">Category</label>
+            <input class="display-block" type="text" id="category">
+        </div>
+
+        <div class="form-input">
+            <label class="display-block" for="priority-level">Priority Level</label>
+            <select id="priority-level">
+                <option value="">Select an item</option>
+                <option value="">High</option>
+                <option value="">Medium</option>
+                <option value="">Low</option>
+            </select>
+        </div>
+
+        <div class="form-input">
+            <label class="display-block" for="progress-level">Progress Level</label>
+            <select id="progress-level">
+                <option value="">Select an item</option>
+                <option value="">Pending</option>
+                <option value="">Completed</option>
+            </select>
+        </div>
+
+        <div class="form-input">
+        <input type="submit" id="submit">
+        </div>
+    </body>
+</html>
